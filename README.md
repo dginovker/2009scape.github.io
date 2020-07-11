@@ -4,6 +4,8 @@
 
 A non-interactive website where you can host download links, community links, and whatever else you want too.
 
+For an interactive, more beefy website, check out [2009scape-Web](https://github.com/2009scape/2009Scape-Web)
+
 Features:
 
 - Gulp
@@ -14,7 +16,6 @@ Features:
 - Font Awesome and Devicon icons
 - Google Analytics
 - Info Customization
-
 
 ## Running the site locally
 
