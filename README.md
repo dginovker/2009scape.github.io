@@ -15,30 +15,23 @@ Features:
 - Google Analytics
 - Info Customization
 
-## Basic Setup
 
-1. [Install Jekyll](http://jekyllrb.com)
-2. Edit `_config.yml` to personalize the site.
+## Running the site locally
 
-## Site and User Settings
+In order to compile the assets and run Jekyll on local you need to follow those steps:
 
-You have to fill some informations on `_config.yml` to customize your site.
+(Note: This guide assumes you know where to find programs/add things to your path. Join our [Discord](https://discord.gg/43YPGND) if you need help.)
 
-```
-# Site settings
-description: A blog about lorem ipsum dolor sit amet
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://localhost:3000" # the base hostname & protocol for your site
+- Install [NodeJS](https://nodejs.org/)
+- Install [Jekyll](https://jekyllrb.com): `sudo gem install bundler jekyll`
+- Install [Yarn](https://yarnpkg.com/): `npm install -g yarn`
+- Install dependencies: `yarn`
+  - Note: One of the dependencies requires `python2`
+- Run: `gulp`
 
-# User settings
-username: Lorem Ipsum
-user_description: Anon Developer at Lorem Ipsum Dolor
-user_title: Anon Developer
-email: anon@anon.com
-twitter_username: lorem_ipsum
-github_username:  lorem_ipsum
-gplus_username:  lorem_ipsum
-```
+## Updating the live site (2009scape.org)
+
+The live site is based on [open2009scape](https://github.com/open2009scape/2009scape.github.io)'s repo fork and automatically updates. Developers in the Discord channel have access to this account, ping them to pull the latest version.
 
 **Don't forget to change your url before you deploy your site!**
 
@@ -48,16 +41,6 @@ gplus_username:  lorem_ipsum
 - Particle Customization
   - Edit the json data in particle function in app.js
   - Refer to [Particle.js](https://github.com/VincentGarreau/particles.js/) for help
-
-## Running the blog in local
-
-In order to compile the assets and run Jekyll on local you need to follow those steps:
-
-- Install [NodeJS](https://nodejs.org/)
-- Install [Jekyll](https://jekyllrb.com): `sudo gem install bundler jekyll`
-- Install [Yarn](https://yarnpkg.com/): `npm install -g yarn`
-- Install dependencies: `yarn`
-- Run: `gulp`
 
 ## Credits
 
