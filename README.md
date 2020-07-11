@@ -1,10 +1,10 @@
-# Particle Jekyll Theme
+# 2009scape Website
 
 ![](./particle.jpg)
 
-This is a simple and minimalist template for Jekyll designed for developers that want to show of their portfolio.
+A non-interactive website where you can host download links, community links, and whatever else you want too.
 
-The Theme features:
+Features:
 
 - Gulp
 - SASS
@@ -18,8 +18,7 @@ The Theme features:
 ## Basic Setup
 
 1. [Install Jekyll](http://jekyllrb.com)
-2. Clone the particle theme: `git clone https://github.com/nrandecker/particle.git`
-3. Edit `_config.yml` to personalize your site.
+2. Edit `_config.yml` to personalize the site.
 
 ## Site and User Settings
 
@@ -60,16 +59,6 @@ In order to compile the assets and run Jekyll on local you need to follow those 
 - Install dependencies: `yarn`
 - Run: `gulp`
 
-## Questions
-
-Having any issues file a [GitHub Issue](https://github.com/nrandecker/particle/issues/new).
-
-## License
-
-This theme is free and open source software, distributed under the The MIT License. So feel free to use this Jekyll theme anyway you want.
-
 ## Credits
 
-This theme was partially designed with the inspiration from these fine folks
-- [Willian Justen](https://github.com/willianjusten/will-jekyll-template)
-- [Vincent Garreau](https://github.com/VincentGarreau/particles.js/)
+This project was taken from [Nathan Randecker](https://github.com/nrandecker/particle). Big thanks to him and his generous license.
