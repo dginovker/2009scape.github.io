@@ -6,12 +6,7 @@ description: 2009scape is the most advanced 2009 Runescape emulation out there. 
 
 # User settings
 username: 2009scape
-user_description: "TODO: Description"
 user_title: Play Now
-email: anon@anon.com
-twitter_username: lorem_ipsum
-github_username:  lorem_ipsum
-gplus_username:  lorem_ipsum
 
 # Google-analytics
 google-analytics:
