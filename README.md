@@ -30,10 +30,6 @@ In order to compile the assets and run Jekyll on local you need to follow those 
   - Note: One of the dependencies requires `python2`
 - Run: `gulp`
 
-## Updating the live site (2009scape.org)
-
-The live site is based on [open2009scape](https://github.com/open2009scape/2009scape.github.io)'s repo fork and automatically updates. Developers in the Discord channel have access to this account, ping them to pull the latest version.
-
 **Don't forget to change your url before you deploy your site!**
 
 ## Color and Particle Customization
